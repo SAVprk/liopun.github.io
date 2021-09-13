@@ -1,0 +1,110 @@
+
+html{
+        background-image: url(phon.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+body{
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+.content-1{
+    font-size: 50px;
+    font-family:'Arial', serif;
+    color: balck
+}
+.text, .text-1{
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+}
+.text-1{
+    margin-top: 8%;
+}
+.button-2{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 160px;
+    line-height: 160px;
+    padding: 0 15px;
+    font-family: monospace;
+    font-size: 50px;
+    color: #232323;
+    margin-top: 100px;
+}
+.button-2 span {
+    position: relative;
+}
+.button-2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background: #C4F1FF;
+    transition: .3s ease-in-out;
+}
+.button-2:hover:before {
+    width: 100%;
+}
+.contentx{
+    position:relative;
+    top: 20px;
+    margin:0px auto;
+    background-color: none;
+    z-index: 1;
+    height:100%;
+   }
+.photo-1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}   
+.rez{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 45%;
+    padding-right: 5%;
+    font-size: 40px;
+    text-align: left;
+    width: 50%;
+    padding-top: 5%;
+   }
+   .button-3{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 160px;
+    line-height: 160px;
+    padding: 0 15px;
+    font-family: monospace;
+    font-size: 50px;
+    color: #232323;
+    margin-top: 10%;
+}
+.button-3 span {
+    position: relative;
+}
+.button-3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background: #C4F1FF;
+    transition: .3s ease-in-out;
+}
+.button-3:hover:before {
+    width: 100%;
+}
