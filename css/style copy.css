@@ -20,13 +20,15 @@ body{
     font-family:'Arial', serif;
     color: balck
 }
-.text, .text-1{
+.text{
     position: relative;
     margin-top: 15%;
     text-align: center;
 }
 .text-1{
-    margin-top: 8%;
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
 }
 .button-2{
     text-decoration: none;
@@ -75,7 +77,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin-left: 45%;
     padding-right: 5%;
-    font-size: 40px;
+    font-size: 32px;
     text-align: left;
     width: 50%;
     padding-top: 5%;
@@ -84,13 +86,13 @@ body{
     text-decoration: none;
     position: relative;
     display: inline-block;
-    height: 160px;
-    line-height: 160px;
+    height: 60px;
+    line-height: 60px;
     padding: 0 15px;
     font-family: monospace;
-    font-size: 50px;
+    font-size: 25px;
     color: #232323;
-    margin-top: 10%;
+    margin: 15px 0 15px 50%;
 }
 .button-3 span {
     position: relative;
@@ -107,4 +109,82 @@ body{
 }
 .button-3:hover:before {
     width: 100%;
+}
+.workblock{
+    border: 2px solid #000;
+    display: block;
+    width: 97%;
+    height: 50px;
+    margin: 10px -100px 10px 10px;
+}
+.contener{
+    text-align: center;
+}
+
+
+.sp {
+    width: 240px;
+    margin: 0px 0 0 50%;
+    background-color: #E64A19;
+}
+.sp ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+.sp ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #E64A19;
+    }
+
+.sp a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:32px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+.sp a:hover {
+    background-color: #000000;
+}
+
+.sp ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.sp ul li:hover > ul {
+    display:inherit;
+}
+
+.sp ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+.sp ul ul ul {
+    position: absolute;
+    top:0;
+    left:100%;
+}
+.bbody{
+    height: 1080px;
+}
+table{
+    text-align: center;
+    margin: 10px auto;
+}
+.doc{
+    width: 360px;
+}
+td{
+padding: 10px;
 }
